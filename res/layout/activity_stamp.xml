@@ -1,0 +1,214 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- 스탬프 화면 -->
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffcd33"
+    tools:ignore="MergeRootFrame" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <LinearLayout
+            style="@style/HorizontalLinearStamp"
+            android:layout_gravity="center" >
+
+            <LinearLayout style="@style/LinearStamp" >
+
+                <ToggleButton
+                    android:id="@+id/stamp_soondae"
+                    style="@style/ToggleButton" />
+
+                <TextView
+                    style="@style/StampName"
+                    android:text="계경순대국" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/LinearStamp" >
+
+                <ToggleButton
+                    android:id="@+id/stamp_momoami"
+                    style="@style/ToggleButton" />
+
+                <TextView
+                    style="@style/StampName"
+                    android:text="모모야미" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/LinearStamp" >
+
+                <ToggleButton
+                    android:id="@+id/stamp_back"
+                    style="@style/ToggleButton" />
+
+                <TextView
+                    style="@style/StampName"
+                    android:text="백가집" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/LinearStamp" >
+
+                <ToggleButton
+                    android:id="@+id/stamp_bonggusu"
+                    style="@style/ToggleButton" />
+
+                <TextView
+                    style="@style/StampName"
+                    android:text="봉구스밥버거" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/HorizontalLinearStamp"
+            android:layout_gravity="center_horizontal" >
+
+            <LinearLayout style="@style/LinearStamp" >
+
+                <ToggleButton
+                    android:id="@+id/stamp_ssagun"
+                    style="@style/ToggleButton" />
+
+                <TextView
+                    style="@style/StampName"
+                    android:text="싸군" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/LinearStamp" >
+
+                <ToggleButton
+                    android:id="@+id/stamp_amasbin"
+                    style="@style/ToggleButton" />
+
+                <TextView
+                    style="@style/StampName"
+                    android:text="아마스빈" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/LinearStamp" >
+
+                <ToggleButton
+                    android:id="@+id/stamp_yejjajang"
+                    style="@style/ToggleButton" />
+
+                <TextView
+                    style="@style/StampName"
+                    android:text="예 짜장면" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/LinearStamp" >
+
+                <ToggleButton
+                    android:id="@+id/stamp_chamjjajang"
+                    style="@style/ToggleButton" />
+
+                <TextView
+                    style="@style/StampName"
+                    android:text="참짜장" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/HorizontalLinearStamp"
+            android:layout_gravity="center_horizontal" >
+
+            <LinearLayout style="@style/LinearStamp" >
+
+                <ToggleButton
+                    android:id="@+id/stamp_tomato"
+                    style="@style/ToggleButton" />
+
+                <TextView
+                    style="@style/StampName"
+                    android:text="토마토김밥" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/LinearStamp" >
+
+                <ToggleButton
+                    android:id="@+id/stamp_pigmalion"
+                    style="@style/ToggleButton" />
+
+                <TextView
+                    style="@style/StampName"
+                    android:text="피그말리온" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/LinearStamp" >
+
+                <ToggleButton
+                    android:id="@+id/stamp_alchon"
+                    style="@style/ToggleButton" />
+
+                <TextView
+                    style="@style/StampName"
+                    android:text="Alchon" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/LinearStamp" >
+
+                <ToggleButton
+                    android:id="@+id/stamp_babaffle"
+                    style="@style/ToggleButton" />
+
+                <TextView
+                    style="@style/StampName"
+                    android:text="BaBaffle" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/HorizontalLinearStamp"
+            android:layout_gravity="center_horizontal" >
+
+            <LinearLayout style="@style/LinearStamp" >
+
+                <ToggleButton
+                    android:id="@+id/stamp_bubblytea"
+                    style="@style/ToggleButton" />
+
+                <TextView
+                    style="@style/StampName"
+                    android:text="Bubbly tea" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/LinearStamp" >
+
+                <ToggleButton
+                    android:id="@+id/stamp_cafelavingne"
+                    style="@style/ToggleButton" />
+
+                <TextView
+                    style="@style/StampName"
+                    android:text="cafe&apos; Lavingne" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/LinearStamp" >
+
+                <ToggleButton
+                    android:id="@+id/stamp_thebasak"
+                    style="@style/ToggleButton" />
+
+                <TextView
+                    style="@style/StampName"
+                    android:text="The 바삭바삭" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/LinearStamp" >
+
+                <ToggleButton
+                    android:id="@+id/stamp_thebcup"
+                    style="@style/ToggleButton" />
+
+                <TextView
+                    style="@style/StampName"
+                    android:text="The B컵닭" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

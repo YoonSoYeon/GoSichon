@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="200dp"
+    android:layout_gravity="center"
+    android:background="#ffe98a"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:gravity="center"
+        android:orientation="horizontal" >
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+			android:layout_marginLeft="20dp"
+            android:src="@drawable/toggle_visit" />
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="타이틀이라귱"
+            android:textColor="@android:color/black"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <!-- 확인 취소 버튼 -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/bt_left"
+            android:layout_width="140dp"
+            android:background="#faa636"
+            android:layout_height="40dp"
+            android:text="확인" />
+
+        <Button
+            android:layout_marginLeft="10dp"
+            android:id="@+id/bt_right"
+            android:layout_width="140dp"
+            android:background="#faa636"
+            android:layout_height="40dp"
+            android:text="취소" />
+    </LinearLayout>
+
+</LinearLayout>

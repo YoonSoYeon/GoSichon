@@ -1,0 +1,131 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fac0ae"
+    tools:context="kr.hs.emirim.dtd1997.ist.MainActivity"
+    tools:ignore="MergeRootFrame" >
+
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+        <TextView
+        style="@style/SearchText"
+        android:text="시간" 
+       />
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <ToggleButton
+                android:id="@+id/morning"
+                style="@style/SearchToggle"
+              android:layout_marginLeft="7dp"
+                android:background="@drawable/time_morning" />
+
+            <ToggleButton
+                android:id="@+id/afternoon"
+                style="@style/SearchToggle"
+                android:layout_marginLeft="7dp"
+                android:background="@drawable/time_afternoon" />
+
+            <ToggleButton
+                android:id="@+id/evening"
+                style="@style/SearchToggle"
+                android:layout_marginLeft="7dp"
+                android:background="@drawable/time_evening" />
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <TextView
+        style="@style/SearchText"
+        android:text="종류" />
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+
+            <ToggleButton
+                android:id="@+id/korea"
+                style="@style/SearchToggle"
+                android:layout_marginLeft="7dp"
+                android:background="@drawable/food_korea" />
+
+            <ToggleButton
+                android:id="@+id/china"
+                style="@style/SearchToggle"
+                android:layout_marginLeft="7dp"
+                android:background="@drawable/food_china" />
+
+            <ToggleButton
+                android:id="@+id/japan"
+                android:layout_marginLeft="7dp"
+                style="@style/SearchToggle"
+                android:background="@drawable/food_japan" />
+
+            <ToggleButton
+                android:id="@+id/amarica"
+                style="@style/SearchToggle"
+                android:layout_marginLeft="7dp"
+                android:background="@drawable/food_america" />
+
+            <ToggleButton
+                android:id="@+id/desert"
+                style="@style/SearchToggle"
+                android:layout_marginLeft="7dp"
+                android:background="@drawable/food_dessert" />
+        </LinearLayout>
+    </HorizontalScrollView>
+
+
+    <TextView
+        style="@style/SearchText"
+        android:text="포장/배달" />
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <ToggleButton
+                android:id="@+id/pack"
+                style="@style/SearchToggle"
+                android:layout_marginLeft="7dp"
+                android:background="@drawable/pack" />
+
+            <ToggleButton
+                android:id="@+id/deliver"
+                style="@style/SearchToggle"
+                android:layout_marginLeft="7dp"
+                android:background="@drawable/deliver" />
+        </LinearLayout>
+    </HorizontalScrollView>
+	<Button
+        android:id="@+id/button_search"
+        android:background="@drawable/buttom"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         />
+	</LinearLayout>
+	
+</ScrollView>
+
+    

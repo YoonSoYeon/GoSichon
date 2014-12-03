@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 지도 화면 -->
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:background="@drawable/map_four">
+
+	
+	<RelativeLayout 
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content">
+	    
+	    <!-- 토마토김밥-->
+	    <ImageView 
+	        android:id="@+id/store_tomato"
+	        style="@style/MapImage"
+	        android:layout_marginLeft="175dp"
+	        android:layout_marginTop="10dp"
+	        android:src="@drawable/map_korea"/>
+	    <ImageView
+            android:id="@+id/store_tomato_mal"
+            android:src="@drawable/store_tomato_mal"
+            android:layout_marginLeft="105dp"
+	        android:layout_marginTop="10dp"
+	         style="@style/Map_mal"/>
+	    
+	    <!-- 피그말리온 -->
+	    <ImageView 
+	        android:id="@+id/store_pigmalion"
+	        style="@style/MapImage"
+	        android:layout_marginLeft="160dp"
+	        android:layout_marginTop="85dp"
+	        android:src="@drawable/map_dessert"/>
+	    <ImageView
+            android:id="@+id/store_pigmalion_mal"
+            android:src="@drawable/store_pigmalion_mal"
+            android:layout_marginLeft="160dp"
+	        android:layout_marginTop="25dp"
+	         style="@style/Map_mal"/>
+	    
+	    <!-- 예 짜장 -->
+	    <ImageView 
+	        android:id="@+id/store_yejjajang"
+	        style="@style/MapImage"
+	        android:layout_marginLeft="200dp"
+	        android:layout_marginTop="160dp"
+	        android:src="@drawable/map_china"/>
+	    <ImageView
+            android:id="@+id/store_yejjajang_mal"
+            android:src="@drawable/store_yejjajang_mal"
+            android:layout_marginLeft="200dp"
+	        android:layout_marginTop="100dp"
+	         style="@style/Map_mal"/>
+	    
+	    <!-- 싸군 -->
+	    <ImageView 
+	        android:id="@+id/store_ssagun"
+	        style="@style/MapImage"
+	        android:layout_marginLeft="18dp"
+	        android:layout_marginTop="180dp"
+	        android:src="@drawable/map_america"/>
+	    <ImageView
+            android:id="@+id/store_ssagun_mal"
+            android:src="@drawable/store_ssagun_mal"
+            android:layout_marginLeft="18dp"
+	        android:layout_marginTop="120dp"
+	         style="@style/Map_mal"/>
+	    
+	    <!-- The 바삭바삭 -->
+	    <ImageView 
+	        android:id="@+id/store_basakbasak"
+	        style="@style/MapImage"
+	        android:layout_marginLeft="120dp"
+	        android:layout_marginTop="265dp"
+	        android:src="@drawable/map_america"/>
+	    <ImageView
+            android:id="@+id/store_basakbasak_mal"
+            android:src="@drawable/store_basakbasak_mal"
+            android:layout_marginLeft="120dp"
+	        android:layout_marginTop="205dp"
+	         style="@style/Map_mal"/>
+	    
+	    <!-- 아마스빈 -->
+	    <ImageView 
+	        android:id="@+id/store_amasbin"
+	        style="@style/MapImage"
+	        android:layout_marginLeft="110dp"
+	        android:layout_marginTop="310dp"
+	        android:src="@drawable/map_dessert"/>
+	    <ImageView
+            android:id="@+id/store_amasbin_mal"
+            android:src="@drawable/store_amasbin_mal"
+            android:layout_marginLeft="110dp"
+	        android:layout_marginTop="250dp"
+	         style="@style/Map_mal"/>
+	    
+	    
+	     <!-- 모모야미(33) -->
+	    <ImageView 
+	        android:id="@+id/store_momoyami"
+	        style="@style/MapImage"
+	        android:layout_marginLeft="160dp"
+	        android:layout_marginTop="415dp"
+	        android:src="@drawable/map_japan"/>
+	    <ImageView
+            android:id="@+id/store_momoyami_mal"
+            android:src="@drawable/store_momoyami_mal"
+            android:layout_marginLeft="160dp"
+	        android:layout_marginTop="355dp"
+	         style="@style/Map_mal"/>
+	    
+	</RelativeLayout>
+</LinearLayout>

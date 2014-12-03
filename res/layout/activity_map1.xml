@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 지도 화면 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/map_one"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+        
+        <!-- 알촌(Alchon) -->
+	    <ImageView 
+	        android:id="@+id/store_alchon"
+	        style="@style/MapImage"
+	        android:layout_marginLeft="285dp"
+	        android:layout_marginTop="365dp"
+	        android:src="@drawable/map_korea"/>
+        <ImageView
+            android:id="@+id/store_alchon_mal"
+            android:src="@drawable/store_alchon_mal"
+            android:layout_marginLeft="285dp"
+	        android:layout_marginTop="305dp"
+	         style="@style/Map_mal"/>
+        
+	    <!-- babaffle -->
+	    <ImageView 
+	        android:id="@+id/store_babaffle"
+	        style="@style/MapImage"
+	        android:layout_marginLeft="280dp"
+	        android:layout_marginTop="415dp"
+	        android:src="@drawable/map_dessert"/>
+        <ImageView
+            android:id="@+id/store_babaffle_mal"
+            android:src="@drawable/store_babaffle_mal"
+            android:layout_marginLeft="280dp"
+	        android:layout_marginTop="355dp"
+	        style="@style/Map_mal"/>
+    </RelativeLayout>
+
+</LinearLayout>

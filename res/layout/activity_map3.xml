@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 지도 화면 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/map_three"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <!-- 참짜장 -->
+
+        <ImageView
+            android:id="@+id/store_chamjjajang"
+            style="@style/MapImage"
+            android:layout_marginLeft="300dp"
+            android:layout_marginTop="400dp"
+            android:src="@drawable/map_china" />
+
+        <ImageView
+            android:id="@+id/store_chamjjajang_mal"
+            style="@style/Map_mal"
+            android:layout_marginLeft="290dp"
+            android:layout_marginTop="340dp"
+            android:src="@drawable/store_chamjjajang_mal" />
+
+        <!-- 백가집 -->
+
+        <ImageView
+            android:id="@+id/store_backgajib"
+            style="@style/MapImage"
+            android:layout_marginLeft="310dp"
+            android:layout_marginTop="440dp"
+            android:src="@drawable/map_korea" />
+
+        <ImageView
+            android:id="@+id/store_backgajib_mal"
+            style="@style/Map_mal"
+            android:layout_marginLeft="290dp"
+            android:layout_marginTop="380dp"
+            android:src="@drawable/store_backgajib_mal" />
+    </RelativeLayout>
+
+</LinearLayout>

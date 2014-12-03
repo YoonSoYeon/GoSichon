@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 임시로 ->리스트뷰 누르면 그에 해당되는 화면이 뜨는 부분 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+<TextView  
+    android:id="@+id/text01"
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:text="Medium"
+    android:textSize="80dp"
+    />
+</LinearLayout>

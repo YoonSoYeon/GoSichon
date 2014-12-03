@@ -1,0 +1,225 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg"
+    tools:context="kr.hs.emirim.dtd1997.ist.MainActivity"
+    tools:ignore="MergeRootFrame" >
+
+    <LinearLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/store_name"
+            style="@style/Bigtitle"
+            android:background="#99c55c"
+            android:gravity="center" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#aa000000"
+            android:gravity="center" >
+
+            <ImageView
+                android:id="@+id/storeimage"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:gravity="center"
+                android:scaleType="fitXY" />
+        </LinearLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#a3d75e" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="7dp"
+                android:layout_marginLeft="7dp"
+                android:layout_marginRight="7dp"
+                android:layout_marginTop="7dp"
+                android:background="#ffffff"
+                android:orientation="vertical" >
+
+                <TextView
+                    style="@style/title"
+                    android:layout_marginBottom="3dp"
+                    android:text="@string/title_menu" />
+
+                <TextView
+                    android:id="@+id/store_menu"
+                    style="@style/text"
+                    android:layout_marginBottom="7dp" />
+
+                <TextView
+                    style="@style/title"
+                    android:layout_marginBottom="3dp"
+                    android:text="@string/title_time" />
+
+                <TextView
+                    android:id="@+id/store_time"
+                    style="@style/text"
+                    android:layout_marginBottom="7dp" />
+
+                <TextView
+                    style="@style/title"
+                    android:layout_marginBottom="3dp"
+                    android:text="@string/title_seat" />
+
+                <TextView
+                    android:id="@+id/store_seat"
+                    style="@style/text"
+                    android:layout_marginBottom="7dp" />
+
+                <TextView
+                    style="@style/title"
+                    android:layout_marginBottom="3dp"
+                    android:text="@string/title_tel" />
+
+                <TextView
+                    android:id="@+id/store_tel"
+                    style="@style/text"
+                    android:layout_marginBottom="7dp"
+                    android:autoLink="phone" />
+
+                <TextView
+                    style="@style/title"
+                    android:layout_marginBottom="3dp"
+                    android:text="@string/title_address" />
+
+                <TextView
+                    android:id="@+id/store_address"
+                    style="@style/text"
+                    android:layout_marginBottom="7dp" />
+
+                <TextView
+                    style="@style/title"
+                    android:layout_marginBottom="3dp"
+                    android:text="@string/delivery" />
+
+                <TextView
+                    android:id="@+id/store_delivery"
+                    style="@style/text"
+                    android:layout_marginBottom="7dp" />
+
+                <TextView
+                    style="@style/title"
+                    android:layout_marginBottom="3dp"
+                    android:text="@string/takeout" />
+
+                <TextView
+                    android:id="@+id/store_takeout"
+                    style="@style/text"
+                    android:layout_marginBottom="7dp" />
+
+                <TextView
+                    style="@style/title"
+                    android:layout_marginBottom="3dp"
+                    android:text="@string/title_price" />
+
+                <TextView
+                    android:id="@+id/store_price"
+                    style="@style/text"
+                    android:layout_marginBottom="7dp" />
+
+                <TextView
+                    style="@style/title"
+                    android:layout_marginBottom="3dp"
+                    android:text="@string/title_etc" />
+
+                <TextView
+                    android:id="@+id/store_title_etc"
+                    style="@style/text"
+                    android:layout_marginBottom="7dp" />
+            </LinearLayout>
+        </FrameLayout>
+
+        <HorizontalScrollView
+            android:id="@+id/anasbin_scroll"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <LinearLayout
+                android:id="@+id/container"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal" >
+
+                <ImageButton
+                    android:id="@+id/one"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginRight="15dp"
+                    android:adjustViewBounds="true"
+                    android:background="@android:color/transparent"
+                    android:scaleType="fitXY" />
+
+                <ImageButton
+                    android:id="@+id/two"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginRight="15dp"
+                    android:adjustViewBounds="true"
+                    android:background="@android:color/transparent"
+                    android:scaleType="fitXY" />
+
+                <ImageButton
+                    android:id="@+id/three"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginRight="15dp"
+                    android:adjustViewBounds="true"
+                    android:background="@android:color/transparent"
+                    android:scaleType="fitXY" />
+
+                <ImageButton
+                    android:id="@+id/four"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginRight="15dp"
+                    android:adjustViewBounds="true"
+                    android:background="@android:color/transparent"
+                    android:scaleType="fitXY" />
+
+                <ImageButton
+                    android:id="@+id/five"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginRight="15dp"
+                    android:adjustViewBounds="true"
+                    android:background="@android:color/transparent"
+                    android:scaleType="fitXY" />
+
+                <ImageButton
+                    android:id="@+id/six"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginBottom="10dp"
+                    android:adjustViewBounds="true"
+                    android:background="@android:color/transparent"
+                    android:scaleType="fitXY" />
+
+                <ImageButton
+                    android:id="@+id/seven"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginBottom="10dp"
+                    android:adjustViewBounds="true"
+                    android:background="@android:color/transparent"
+                    android:scaleType="fitXY" />
+            </LinearLayout>
+        </HorizontalScrollView>
+    </LinearLayout>
+
+</ScrollView>
